@@ -1,0 +1,29 @@
+
+
+
+/* Sections to separate each page length */
+.section{
+	min-height: 500px;
+	background-color: #CF0000;
+}
+
+
+/* Styling for sticky element */
+h3,
+.sticky-element{
+	margin: 0 auto;
+	width: 200px;
+	background-color: #CCCCCC;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Styling required for stuck elements */
+h3,
+.sticky-element,
+.stuck {
+	right: 20%;
+	position: fixed;
+	top:20px;
+	color: #000000;
+}
