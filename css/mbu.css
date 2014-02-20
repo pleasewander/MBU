@@ -3,7 +3,7 @@
 
 /* top section */
 #sectiontop{
-	min-height: 500px;
+	min-height: 768px;
 	height: auto;
 	background-color: #ffffff;
 	border: 0px solid;
@@ -15,7 +15,7 @@
 }
 
 #sectiontop > h1{
-	margin-top: 150px;
+	margin-top: 300px;
 	font-family: 'Lobster', cursive;
 	font-size: 50px;
 	color: #3e7b89;
@@ -26,6 +26,36 @@
 	color: #75d1ea;
 }
 
+.bottomgradientwrapper{
+	position: relative;
+	margin-top: -10px;
+	height: 50px;
+}
+
+/* How It Works Section */
+#sectionabout{
+	min-height: 500px;
+	width: auto;
+	height: auto;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 60% 100%;
+}
+#sectionabout h1{
+	font-family: 'Tangerine', cursive;
+	font-size: 60px;
+	color: #75d1ea;
+}
+#sectionabout p{
+	color: #ffffff;
+}
+
+.hiwContainer{
+	padding: 10px;
+	margin: 10px;
+	background: #f5433e;
+}
 
 /* Styling for sticky element */
 .sticky-element h3{
