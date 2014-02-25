@@ -57,6 +57,40 @@
 	background: #f5433e;
 }
 
+/* Section for majors */
+
+.sectionmajors{
+	min-height: 500px;
+	background-color: #ecf0f1;
+}
+
+.sectionmajors img{
+	height: 300px;
+	width: 300px;
+}
+
+#majornav img{
+	height: 100px;
+	width: 100px;
+}
+
+/* Signup section */
+
+#sectionsignup{
+	min-height: 500px;
+	background-color: #2c3e50;
+}
+
+#sectionsignup h1{
+	color: #FFFFFF;
+	margin-top: 200px;
+}
+
+#sectionsignup img{
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+}
 /* Styling for sticky element */
 .sticky-element h3{
 	margin: 0 auto;
