@@ -34,23 +34,27 @@
 
 /* How It Works Section */
 #sectionabout{
-	min-height: 500px;
+	min-height: 700px;
 	width: auto;
 	height: auto;
-	background-color: #000000;
+	background-color: #16a085;
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 60% 100%;
 }
 #sectionabout h1{
-	font-family: 'Tangerine', cursive;
-	font-size: 60px;
-	color: #75d1ea;
-}
-#sectionabout p{
-	color: #ffffff;
+	font-size: 40px;
+	color: #000000;
+	margin: 30px;
 }
 
+#sectionabout h2{
+	color: #FFFFFF;
+}
+#sectionabout p{
+	color:  #ecf0f1;
+	margin-bottom: 30px;
+}
 .hiwContainer{
 	padding: 10px;
 	margin: 10px;
@@ -59,12 +63,12 @@
 
 /* Section for majors */
 
-.sectionmajors{
-	min-height: 500px;
+#sectionmajors{
+	min-height: 700px;
 	background-color: #ecf0f1;
 }
 
-.sectionmajors img{
+#sectionmajors img{
 	height: 300px;
 	width: 300px;
 }
@@ -72,6 +76,11 @@
 #majornav img{
 	height: 100px;
 	width: 100px;
+}
+
+#sectionmajors p {
+	padding: 20px;
+	font-size: 25px;
 }
 
 /* Signup section */
